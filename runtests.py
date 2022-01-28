@@ -21,6 +21,7 @@ if not settings.configured:
             'django.contrib.messages',
             'django.contrib.sites',
             'djangular',
+            'django.contrib.staticfiles'
         ],
         MIDDLEWARE_CLASSES=[
             'django.middleware.common.CommonMiddleware',
